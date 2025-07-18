@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Pesquisa de Satisfação</title>
+</head>
+<body>
+
+    <h1>Formulário de Pesquisa de Satisfação</h1>
+
+    <form>
+
+        <h2>Dados Pessoais</h2>
+
+        Nome:<br>
+        <input type="text" name="nome"><br><br>
+
+        E-mail:<br>
+        <input type="email" name="email"><br><br>
+
+        Telefone:<br>
+        <input type="tel" name="telefone"><br><br>
+
+        <h2>Pesquisa</h2>
+
+        1. Como você avalia nosso atendimento?<br>
+        <input type="radio" name="atendimento" value="ótimo"> Ótimo<br>
+        <input type="radio" name="atendimento" value="bom"> Bom<br>
+        <input type="radio" name="atendimento" value="regular"> Regular<br>
+        <input type="radio" name="atendimento" value="ruim"> Ruim<br><br>
+
+        2. Está satisfeito com os nossos produtos?<br>
+        <input type="radio" name="produtos" value="sim"> Sim<br>
+        <input type="radio" name="produtos" value="mais_ou_menos"> Mais ou menos<br>
+        <input type="radio" name="produtos" value="nao"> Não<br><br>
+
+        3. Você recomendaria nossa empresa?<br>
+        <select name="recomendaria">
+            <option value="sim">Sim</option>
+            <option value="nao">Não</option>
+            <option value="talvez">Talvez</option>
+        </select><br><br>
+
+        <input type="checkbox" name="compartilhar"> Autorizo compartilhar minha resposta com terceiros<br><br>
+
+        <input type="submit" value="Enviar">
+
+    </form>
+
+</body>
+</html>
