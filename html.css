@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Exemplo de CSS</title>
+  <style>
+    /* 1. Links vermelhos e mudam para cor limão ao passar o mouse */
+    a {
+      color: red;
+    }
+
+    a:hover {
+      color: lemonchiffon;
+    }
+
+    /* 2. Parágrafos com fonte Arial */
+    p {
+      font-family: Arial;
+    }
+
+    /* Parágrafos logo depois de h1 em negrito */
+    h1 + p {
+      font-weight: bold;
+    }
+
+    /* 3. Classe destaque */
+    .destaque {
+      font-family: Arial;
+    }
+
+    /* Se for parágrafo com a classe destaque, fica em negrito */
+    p.destaque {
+      font-weight: bold;
+    }
+
+    /* Se for um <strong> com a classe destaque, fica vermelho */
+    strong.destaque {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Meu Título</h1>
+  <p>Esse parágrafo vem logo depois do h1 (fica em negrito).</p>
+  <p>Esse é outro parágrafo normal.</p>
+
+  <p class="destaque">Esse parágrafo tem a classe "destaque" (fica em negrito também).</p>
+
+  <p>Esse texto tem uma <strong class="destaque">palavra em destaque</strong> com a cor vermelha.</p>
+
+  <p>Veja o <a href="#">link aqui</a> que muda de cor quando o mouse passa em cima.</p>
+
+</body>
+</html>
