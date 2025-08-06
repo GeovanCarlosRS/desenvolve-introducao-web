@@ -76,3 +76,18 @@ h3 {font-size: 2.2rem;}
 
 .main p {line-height: 1.5;}
 abbr {font-variant: small-caps;}
+
+.page-wrapper {
+    position: relative;
+}
+
+.explanation {
+        width: 60%;
+        border-right: #206861 solid 1px;
+        padding-right: 2%;
+}
+
+#design-selection {
+    position: absolute;
+    top: 560px;
+}
